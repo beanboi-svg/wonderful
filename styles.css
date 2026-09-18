@@ -30,11 +30,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 4px;
 }
 
 .svg {
-    height: 100px;
+    height: 140px;
     width: auto;
+    max-width: 90vw;
     color: var(--ink);
 }
