@@ -1,0 +1,40 @@
+:root {
+    --bg: #FAFAFA;
+    --ink: #222;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg);
+    font-family: 'Funnel Sans', sans-serif;
+    margin: 0;
+    color: var(--ink);
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.hero {
+    display: flex;
+    min-height: 100vh;
+    padding: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.svg {
+    height: 100px;
+    width: auto;
+    color: var(--ink);
+}
